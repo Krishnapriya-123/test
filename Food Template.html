@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<title>Food Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: initial;}
+    .w3-bar-block .w3-bar-item {padding:100px}
+ </style>
+
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto;background-color:lightgreen;">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16" style="color: darkblue;">Mail</div>
+    <div class="w3-center w3-padding-16" style="color:darkblue;">My Food</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="./food1.html" alt="Masala Dosa" style="width:100%">
+      <h3>The street Dosa</h3>
+      <P>Masala dosa with sambar and Coconut chutney.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./food2.html" alt="Cheese Burger" style="width:100%">
+      <h3>Double Cheese Burger</h3>
+      <p>Without referencing any grievances about the state of ground beef,the key to a perfect cheeseburger.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./food3.html" alt="Donuts" style="width:100%">
+      <h3>Air Fryer Doughnuts</h3>
+      <p>Skip the hot oil and make these healthier Air Fryer Doughnuts.</p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./food4.html" alt="pizza" style="width:100%">
+      <h3>Perfect Paleo Pizza</h3>
+      <p>Still have pizza night,only without the grains,grain,or dairy,with this Paleo pizza. </p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="./food5.html" alt="Indian style" style="width:100%">
+      <h3>Indian Food items</h3>
+      <p>Once Taste the Indian style.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./food6.html" alt="Salad" style="width:100%">
+      <h3>Salad</h3>
+      <p>What comes to your mind when you hear the word 'diet'?</p>
+      <p>Some greens.</p>
+      <p>Some boiled veggies.</p>
+      <p>Some boiled meats.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./food8.jfif" alt="Indian recipes" style="width:100%">
+      <h3>Popular Indian Recipes</h3>
+      <p>Try these Indian Traditional food items.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./food7.html" alt="Dry Fruits" style="width:100%">
+      <h3>Dry Fruits</h3>
+      <p>Healthy and Delicious Dry Fruit recipes.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="./food12.html" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Powered by <a href="Https://SV-gie.github.io/FirstBiz" target="_blank">FirstBiz</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h2>Contact Us</h2>
+      <i class="fa fa-map-marker" style="width: 30px;"></i>hyderabad,INDIA<br>
+      <i class="fa fa-phone" style="width: 30px;"></i> Phone: +91 8573892536<br>
+      <i class="fa fa-envelope" style="width: 30px;"></i> Email:indianfood@gamil.com<br>
+      <form action="/action_page.php" target="blank">
+        <p><input class="w3-input w3-padding-10 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-10 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-10 w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+ </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
